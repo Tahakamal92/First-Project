@@ -29,9 +29,21 @@ nav{
     justify-content: space-evenly;
     padding: 0;
     width: 600px;
-    
-
 }
 .nav-list{
     display: inline;
+}
+
+.main-bunner{
+    display: flex;
+    justify-content: space-between;
+}
+.f-paragraph{
+    padding-top: 130px;
+    padding-bottom: 214px;
+  
+}
+.girl-img{
+    display: flex;
+    justify-content: space-between;
 }
