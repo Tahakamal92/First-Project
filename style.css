@@ -35,15 +35,65 @@ nav{
 }
 
 .main-bunner{
+    
     display: flex;
     justify-content: space-between;
+    position: relative;
+    
+}
+
+.main-bunner h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DF6951;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.main-bunner h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #181E4B ;
+    font-size: 84px; 
+    margin-block: 24px;
+    line-height: 80px;
+
+    
+}
+
+.main-bunner p{
+    font-size: 16px;
+    color: #5E6282;
+    margin-block: 6px;
+    width: 320px;
 }
 .f-paragraph{
     padding-top: 130px;
     padding-bottom: 214px;
+    margin-block: 24px;
   
 }
 .girl-img{
+    position: relative;
     display: flex;
     justify-content: space-between;
+    width: 600px;
+}
+
+.out-more{
+    background-color: #F1A501;
+    border-width: 0px;
+    width:170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+}
+
+.play-demo{
+    background-color: transparent;
+    background-image: url("images/Play\ button.png");
+    width: 165px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: top -30px;
+    border: 0px;
 }
